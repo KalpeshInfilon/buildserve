@@ -1,0 +1,185 @@
+/* main sidebar part */
+.sidebar-part {
+  background-color: #ffffff;
+  width: 260px;
+  height: 100%;
+  /* padding: 0px 10px 0px 10px; */
+  position: fixed;
+  overflow-x: hidden;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1);
+}
+
+.sidebar-part-toggle:hover {
+  width: 260px;
+  /* z-index: 1; */
+}
+/* .sidebar-part-toggle {
+  z-index: 1;
+} */
+
+.sidebar-part-toggle {
+  z-index: 1;
+  background-color: #ffffff;
+  width: 65px;
+  height: 100%;
+  position: fixed;
+  overflow-x: hidden;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1);
+  -webkit-transition: width 0.4s linear;
+  transition: width 0.4s linear;
+  -webkit-transform: translateZ(0) scale(1, 1);
+}
+
+/* top sidebar part */
+.sidebar-top-inside {
+  width: 255px;
+  height: auto;
+  top: 0;
+  left: 15;
+  position: fixed;
+  padding: 5px;
+  background: #ffffff;
+  z-index: 1;
+  /* box-shadow: 0 0 15px 0 rgb(34 41 47 / 5%); */
+  /* box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%); */
+}
+
+/* infilon logo size */
+.Main-logo-size {
+  /* width:px; */
+  height: 40px;
+  padding: 6px 15px 6px 15px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.logo-size {
+  width: 110px;
+  height: 40px;
+  padding: 8px 5px 8px 0px;
+}
+
+/* right side icon */
+.icon-size {
+  padding: 9px 0 0 15px;
+}
+
+/* color changes icon */
+.icon-size i {
+  font-size: 20px;
+  color: #7367f0;
+  font-weight: 400;
+}
+
+.sidebar-section {
+  width: 250px;
+  height: auto;
+  margin-top: 45px;
+  background: #ffffff;
+}
+
+.sidebar-section-inside {
+  padding: 4px;
+  width: 255px;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+
+.main-text {
+  padding: 0 0 10px 10px;
+  font-size: 18px;
+  color: #625f6e;
+  font-weight: 700;
+}
+
+.main-icon-text {
+  padding: 0 0 10px 15px;
+  font-size: 18px;
+  color: #625f6e;
+  font-weight: 700;
+}
+
+.sidebar-section-inside ul {
+  list-style: none;
+  padding: 0 0 0 15px;
+}
+
+.sidebar-section-inside ul li {
+  padding: 0;
+  line-height: 35px;
+  color: #625f6e;
+}
+
+.sidebar-section-inside i {
+  font-size: 17px;
+  color: rgb(80, 80, 80);
+  font-weight: 400;
+  /* margin: 0 15px 0 0; */
+}
+
+::-webkit-scrollbar {
+  width: 0.3em;
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-thumb {
+  overflow: visible;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* .scroll-bar-wrap:hover .cover-bar {
+    opacity: 0;
+   -webkit-transition: all .5s;
+} */
+
+.sidebar-footer-part {
+  width: 255px;
+  height: auto;
+  bottom: 0;
+  left: 15;
+  position: fixed;
+  background: #ffffff;
+  padding: 5px;
+}
+
+/*  
+    date:- 13/8/2021
+    Sanket code 
+    Sidebar Menu Hover Show/Hide CSS 
+*/
+
+/* .main-menu:hover,
+nav.main-menu.expanded {
+  width: 250px;
+  overflow: visible;
+}
+
+.main-menu {
+  border-right: 1px solid #e5e5e5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  width: 60px;
+  overflow: hidden;
+  -webkit-transition: width 0.05s linear;
+  transition: width 0.05s linear;
+  -webkit-transform: translateZ(0) scale(1, 1);
+  z-index: 1000;
+}
+
+.main-menu1 {
+  overflow: show;
+} */

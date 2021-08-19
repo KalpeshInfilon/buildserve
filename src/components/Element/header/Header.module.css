@@ -1,0 +1,88 @@
+.header {
+  border: 0.3 solid gray;
+  background: white;
+  border-radius: 5px;
+}
+
+.iconColor {
+  color: rgb(131, 124, 124);
+}
+
+.onlineSymbol {
+  height: 10px !important;
+  width: 10px !important;
+  color: green;
+  border-radius: 40px;
+  margin: 30px 0 0 -12px !important;
+  background-color: #28c76f;
+  border: 1px solid white;
+}
+
+.badgeSetting {
+  padding-right: 4.99px;
+  padding-left: 4.99px;
+  margin: 0px 0 0px 0px;
+}
+
+.buttonFocus:focus {
+  box-shadow: none !important;
+}
+.cursorpointer {
+  cursor: pointer;
+  user-select: none;
+}
+
+.cursorpointerwithColor:hover .iconColor {
+  cursor: pointer;
+  user-select: none;
+  color: rgb(19, 160, 216);
+}
+
+.underProfile:hover {
+  color: rgb(104, 104, 212) !important;
+}
+
+.underProfile {
+  color: rgb(129, 127, 127) !important;
+}
+
+.underProfile:active {
+  background-color: rgb(35, 182, 133) !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+/* .headerContainer {
+  width: 100%;
+  padding: 0 0px 0 100px !important;
+} */
+
+@media screen and (max-width: 600px) {
+  .dataHide {
+    visibility: hidden;
+    /* clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%; */
+    display: none;
+  }
+  .buttonFocus {
+    padding: 0;
+    font-size: 11px;
+  }
+  .iconColor {
+    width: 24px;
+    /* margin-bottom: 2px; */
+  }
+  .badgeSetting {
+    padding-right: 1.99px !important;
+    padding-left: 1.99px !important;
+    margin: 0px 0 0px 0px !important;
+  }
+  .profileDropDown {
+    margin: 12px 128px 0 0 !important;
+  }
+
+  .dropDown {
+    margin: 12px 120px 0 0 !important;
+  }
+}
