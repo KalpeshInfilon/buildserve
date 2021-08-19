@@ -1,6 +1,6 @@
 {
   "name": "myadminpanel",
-  "homepage":"https://kalpeshinfilon.github.io/buildserve/",
+  "homepage":"https://kalpeshinfilon.github.io/buildserve",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
