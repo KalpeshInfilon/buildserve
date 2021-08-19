@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/buildserve/static/css/main.80896040.chunk.css",
+    "main.js": "/buildserve/static/js/main.bc2edb8c.chunk.js",
+    "main.js.map": "/buildserve/static/js/main.bc2edb8c.chunk.js.map",
+    "runtime-main.js": "/buildserve/static/js/runtime-main.4f90f525.js",
+    "runtime-main.js.map": "/buildserve/static/js/runtime-main.4f90f525.js.map",
+    "static/css/2.27dd871e.chunk.css": "/buildserve/static/css/2.27dd871e.chunk.css",
+    "static/js/2.e8c5e24b.chunk.js": "/buildserve/static/js/2.e8c5e24b.chunk.js",
+    "static/js/2.e8c5e24b.chunk.js.map": "/buildserve/static/js/2.e8c5e24b.chunk.js.map",
+    "static/js/3.27f802ca.chunk.js": "/buildserve/static/js/3.27f802ca.chunk.js",
+    "static/js/3.27f802ca.chunk.js.map": "/buildserve/static/js/3.27f802ca.chunk.js.map",
+    "index.html": "/buildserve/index.html",
+    "static/css/2.27dd871e.chunk.css.map": "/buildserve/static/css/2.27dd871e.chunk.css.map",
+    "static/css/main.80896040.chunk.css.map": "/buildserve/static/css/main.80896040.chunk.css.map",
+    "static/js/2.e8c5e24b.chunk.js.LICENSE.txt": "/buildserve/static/js/2.e8c5e24b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f90f525.js",
+    "static/css/2.27dd871e.chunk.css",
+    "static/js/2.e8c5e24b.chunk.js",
+    "static/css/main.80896040.chunk.css",
+    "static/js/main.bc2edb8c.chunk.js"
+  ]
+}
